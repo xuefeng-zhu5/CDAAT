@@ -36,7 +36,7 @@ bash install.sh
 - ### Training
 The training process contains two stages:
 
-  - 1st stage: train an RGB-only model (4 GPUS)
+  - 1st stage: train an RGB-only model (4 GPUs)
 
     ```
     export PYTHONPATH=/path/to/CDAAT:$PYTHONPATH
@@ -47,7 +47,7 @@ The training process contains two stages:
     python ./lib/train/run_training.py --config baseline --save_dir /path/to/save/checkpoints
     ```
 
-  - 2st stage: train an RGB-only model (4 GPUS). 
+  - 2st stage: train an RGB-D model (4 GPUs). 
 
     You can download the 1st-stage pretrained [**model**](https://drive.google.com/file/d/14SceHb8mNYM39KMuei--x8jlKLJozFYY/view?usp=drive_link).
 
