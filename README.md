@@ -28,8 +28,8 @@ bash install.sh
 - ### Preparation
 
   - Clone our repository to your local project directory.
-  - Download the training datasets ([LaSOT](http://vision.cs.stonybrook.edu/~lasot/download.html), [GOT-10k](http://got-10k.aitestunion.com/downloads), [TrackingNet](https://github.com/SilvioGiancola/TrackingNet-devkit), [COCO2017](https://cocodataset.org/#download), [RGBD1K](https://github.com/xuefeng-zhu5/RGBD1K) and [DepthTrack](https://github.com/xiaozai/DeT).
-  - Prepare the test datasets ([CDTB](https://openaccess.thecvf.com/content_ICCV_2019/html/Lukezic_CDTB_A_Color_and_Depth_Visual_Object_Tracking_Dataset_and_ICCV_2019_paper.html), [RGBD1K](https://github.com/xuefeng-zhu5/RGBD1K) and [DepthTrack](https://github.com/xiaozai/DeT).
+  - Download the training datasets ([LaSOT](http://vision.cs.stonybrook.edu/~lasot/download.html), [GOT-10k](http://got-10k.aitestunion.com/downloads), [TrackingNet](https://github.com/SilvioGiancola/TrackingNet-devkit), [COCO2017](https://cocodataset.org/#download), [RGBD1K](https://github.com/xuefeng-zhu5/RGBD1K) and [DepthTrack](https://github.com/xiaozai/DeT)).
+  - Prepare the test datasets ([CDTB](https://openaccess.thecvf.com/content_ICCV_2019/html/Lukezic_CDTB_A_Color_and_Depth_Visual_Object_Tracking_Dataset_and_ICCV_2019_paper.html), [RGBD1K](https://github.com/xuefeng-zhu5/RGBD1K) and [DepthTrack](https://github.com/xiaozai/DeT)).
   - Edit the **PATH** in ```lib/test/evaluation/local.py``` and ```lib/train/adim/local.py``` to the proper absolute path.
 
 
