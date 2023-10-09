@@ -1,4 +1,4 @@
-# CDAAT: Adaptiave Colour-Depth Aware Attention for RGB-D Object Tracking
+# Adaptiave Colour-Depth Aware Attention for RGB-D Object Tracking
 
 The official PyTorch implementation of the CDAAT tracker: 
 
